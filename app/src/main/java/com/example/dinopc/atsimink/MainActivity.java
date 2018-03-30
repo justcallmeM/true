@@ -61,6 +61,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onOptionsItemSelected(MenuItem item) {
         //SEARCH AND SETTINGS MENU
         switch(item.getItemId()) {
+            case R.id.action_refresh:
+
+                Toast.makeText(this,"Item Refresh selected", Toast.LENGTH_SHORT).show();
+                return true;
+
             case R.id.action_search:
 
                 Toast.makeText(this,"Item Search selected", Toast.LENGTH_SHORT).show();
