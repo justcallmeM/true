@@ -5,7 +5,7 @@
 
         <group android:checkableBehavior="single">
                 <item
-                    android:id="@+id/Current"
+                    android:id="@+id/Main"
                     android:title="Current" />
                 <item
                     android:id="@+id/Monday"
